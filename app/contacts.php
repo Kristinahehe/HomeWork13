@@ -1,13 +1,4 @@
-<?php
-    session_start();
-    if (!empty($_POST['username']) ){
-        $_SESSION['username'] = $_POST['username'];
-    };
-    if (isset($_POST['logout']) && $_POST['logout'] === 'true') {
-        session_unset();
-        session_destroy();
-    };
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
